@@ -657,25 +657,6 @@ Precision (Cancer Detection): 96.75%
 | **Validation (40)** | 94.1% | 92.3% | 95.8% | 0.974 |
 | **Test (40)** | 93.7% | 91.8% | 95.5% | 0.961 |
 
-### Training Curves
-
-```
-Loss Over Epochs                     Accuracy Over Epochs
-2.5 │                               100% │
-    │ ╱─────────────────            95% │       ╱─────────────
-2.0 │╱                              90% │    ╱─╱
-    │                                85% │  ╱─╱
-1.5 │─ Training Loss               80% │╱─╱
-    │  - - Validation Loss        75% │─╱
-1.0 │                              70% │
-    │                              65% │
-0.5 │ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─   60% │
-    │                              55% │
-  0 └─────────────────────────       └─────────────────────
-    0    10    20    30    40    50    0    10    20    30    40    50
-         Epoch                             Epoch
-```
-
 ### Inference Time Benchmark
 
 | Hardware | Batch Size 1 | Batch Size 8 | Batch Size 16 |
@@ -964,8 +945,6 @@ pytest tests/test_model.py -v
 ## 👨‍💻 Author
 
 **Vivek Kumar** ([@Vivekk-007](https://github.com/Vivekk-007))
-
-- 💼 Specializing in Medical AI and Computer Vision
 - 📧 Contact: kumarvivek05093896@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/vivekk](https://www.linkedin.com/in/vivek-kumar-63587a384/)
 
@@ -1011,7 +990,7 @@ No liability or warranty provided.
 
 ## 📈 Changelog
 
-### Version 1.0.0 (February 23, 2024) - Initial Release ✨
+### Version 1.0.0 (February 23, 2025) - Initial Release ✨
 
 **Features:**
 - ✅ FibonacciNet architecture with custom layers
@@ -1020,7 +999,6 @@ No liability or warranty provided.
 - ✅ FastAPI REST API
 - ✅ DOCX report generation
 - ✅ Hugging Face Hub integration
-- ✅ Docker containerization
 - ✅ Comprehensive logging and monitoring
 
 **Performance:**
