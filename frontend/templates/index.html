@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThyroCheck AI | Advanced Thyroid Diagnostics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-microscope"></i>
+            <span>ThyroCheck AI</span>
+        </div>
+        <nav>
+            <a href="#home">Dashboard</a>
+            <a href="#analysis">Analysis</a>
+            <a href="#about">Research</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Precision Thyroid <br>Diagnostics</h1>
+            <p>Empowering clinicians with Fibonacci-scaled neural networks for deep thyroid nodule analysis.</p>
+
+            <div class="dz-container">
+                <div class="drop-zone" id="dropZone">
+                    <i class="fas fa-cloud-upload-alt dz-icon"></i>
+                    <p class="dz-text">Drag & Drop medical image</p>
+                    <p class="dz-subtext">Supports DICOM, JPEG, PNG (Max 10MB)</p>
+                    <input type="file" id="fileInput" accept="image/*">
+                </div>
+                <div class="medical-loader" id="loader"></div>
+            </div>
+        </section>
+
+        <section class="results-section" id="resultsSection">
+            <h2 class="section-title">Diagnostic Insight</h2>
+
+            <div class="results-grid">
+                <!-- Original Scan -->
+                <div class="card">
+                    <h3>Raw Scan</h3>
+                    <img id="originalImg" src="" alt="Medical Scan">
+                    <div class="metrics-display" style="margin-top: 1.5rem;">
+                        <div class="metric-box">
+                            <p class="metric-label">Source</p>
+                            <p class="metric-value">Ultrasound / Pathology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Analysis -->
+                <div class="card">
+                    <h3>AI Classification</h3>
+                    <div class="metrics-display">
+                        <div class="prediction-badge" id="predBadge">Analyzing...</div>
+                        
+                        <div class="metric-box">
+                            <p class="metric-label">Confidence Probability</p>
+                            <p class="metric-value" id="confPercent">0.00%</p>
+                        </div>
+
+                        <div class="metric-box">
+                            <p class="metric-label">Network Class ID</p>
+                            <p class="metric-value" id="classId">-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heatmap -->
+                <div class="card">
+                    <h3>Grad-CAM Attention</h3>
+                    <img id="gradcamImg" src="" alt="Attention Heatmap">
+                    <div class="metrics-display" style="margin-top: 1.5rem;">
+                        <p style="color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5;">
+                            Bright regions highlight diagnostic focus areas utilized by the FibonacciNet for its final determination.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-primary" id="downloadBtn">
+                <i class="fas fa-file-pdf"></i>
+                Generate Clinical Report
+            </button>
+        </section>
+    </main>
+
+    <div class="alert" id="customAlert"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

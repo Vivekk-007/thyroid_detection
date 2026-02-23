@@ -1,0 +1,25 @@
+21:59:18 - INFO - streamlit_app - Loading model for Streamlit...
+21:59:24 - INFO - streamlit_app - Streamlit model loaded successfully
+22:09:41 - INFO - streamlit_app - Image uploaded in Streamlit: 1 thyroid.jpg
+22:09:41 - INFO - processing - Preprocessing image of size: (464, 372) and mode: L
+22:09:42 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+22:09:51 - INFO - streamlit_app - Image uploaded in Streamlit: 1 thyroid.jpg
+22:09:51 - INFO - processing - Preprocessing image of size: (464, 372) and mode: L
+22:09:51 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+22:10:15 - INFO - streamlit_app - Image uploaded in Streamlit: 0 thyroid.jpg
+22:10:15 - INFO - processing - Preprocessing image of size: (311, 371) and mode: L
+22:10:16 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+22:11:02 - INFO - streamlit_app - Image uploaded in Streamlit: 0 thyroid.jpg
+22:11:02 - INFO - processing - Preprocessing image of size: (311, 371) and mode: L
+22:11:02 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+22:11:10 - INFO - streamlit_app - Image uploaded in Streamlit: 0 thyroid.jpg
+22:11:10 - INFO - processing - Preprocessing image of size: (311, 371) and mode: L
+22:11:11 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+22:15:57 - INFO - streamlit_app - Loading model for Streamlit...
+22:15:58 - INFO - streamlit_app - Streamlit model loaded successfully
+22:17:40 - INFO - streamlit_app - Image uploaded in Streamlit: 0381.jpg
+22:17:40 - INFO - processing - Preprocessing image of size: (425, 378) and mode: L
+22:17:41 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+22:17:52 - INFO - streamlit_app - Image uploaded in Streamlit: 1 thyroid cancer.jpg
+22:17:52 - INFO - processing - Preprocessing image of size: (500, 371) and mode: L
+22:17:52 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
