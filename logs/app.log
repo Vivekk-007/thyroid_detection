@@ -23,3 +23,13 @@
 22:17:52 - INFO - streamlit_app - Image uploaded in Streamlit: 1 thyroid cancer.jpg
 22:17:52 - INFO - processing - Preprocessing image of size: (500, 371) and mode: L
 22:17:52 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+22:20:00 - INFO - streamlit_app - Loading model for Streamlit...
+22:20:01 - INFO - streamlit_app - Streamlit model loaded successfully
+22:34:23 - INFO - app - Starting Thyroid Cancer Detection API...
+22:34:27 - INFO - routes - Loading model from Hugging Face...
+22:34:28 - INFO - routes - Model loaded successfully
+22:35:26 - INFO - routes - Analyze request received for file: 1 thyroid cancer.jpg
+22:35:26 - INFO - processing - Preprocessing image of size: (500, 371) and mode: L
+22:35:35 - INFO - routes - Report request received for file: 1 thyroid cancer.jpg
+22:35:35 - INFO - processing - Preprocessing image of size: (500, 371) and mode: L
+22:35:35 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
