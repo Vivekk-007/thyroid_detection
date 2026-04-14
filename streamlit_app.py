@@ -19,7 +19,7 @@ from utils.report_generator import generate_docx_report
 from utils.model_architecture import Avg2MaxPooling, DepthwiseSeparableConv
 from utils.logger import logger
 
-# --- Page Config ---
+# Page Config 
 st.set_page_config(page_title="Thyroid Cancer Detection", page_icon="🧬", layout="centered")
 st.markdown("""
     <style>
